@@ -47,20 +47,22 @@ Node.js is required to execute JavaScript outside the browser.
 - Follow the installation wizard.
 Or using Homebrew:
     `brew install node`
+
 ---
 ### On Linux (Ubuntu/Debian):
 `sudo apt update` 
+
 `sudo apt install nodejs npm`
 ---
 🔹 Step 3 — Verify Installation
 
 After installation, open your terminal and run:
 `node -v`
-
 and
 `npm -v`
 
 If both return version numbers, Node.js is installed correctly.
+
 ---
 
 # 📦 Installing the Project
@@ -78,6 +80,7 @@ If both return version numbers, Node.js is installed correctly.
 `npm install`
 
 If your project does not use external dependencies, this step may not be necessary.
+
 ---
 
 # 📦 Installing the Project
@@ -95,6 +98,7 @@ If your project does not use external dependencies, this step may not be necessa
 `npm install`
 
 If your project does not use external dependencies, this step may not be necessary.
+
 ---
 
 # 🚀 How to Use the CLI
@@ -114,7 +118,11 @@ All commands are executed using:
 ---
 
 ## 🔎 List Tasks by Status
-`node task-cli list todo node task-cli list in-progress node task-cli list done`
+`node task-cli list todo`
+ 
+`node task-cli list in-progress`
+
+`node task-cli list done`
 
 ---
 
@@ -174,6 +182,7 @@ This approach reinforces important backend fundamentals:
 - Modularization
 - Clean command handling
 - Basic state management
+
 ---
 
 # 💾 How Data Persistence Works
