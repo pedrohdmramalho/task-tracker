@@ -4,6 +4,8 @@ A simple and efficient Command Line Interface (CLI) application to manage your d
 
 This project was built using **Node.js** and focuses on backend fundamentals such as file system manipulation, modular architecture, clean code organization, and command handling.
 
+Idea from https://roadmap.sh/projects/task-tracker
+
 ## 📌 Features
 - Add new tasks
 - List tasks (all or filtered by status)
