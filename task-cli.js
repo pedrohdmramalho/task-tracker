@@ -6,9 +6,8 @@
 import { checkInputedID, convertedID } from "./validators/checkInputedID.js";
 import { TaskRepository } from "./domain/TaskRepository.js";
 import { STATUS } from "./domain/TaskStatus.js"
-import { log } from "console";
 
-const repository = new TaskRepository(); // Object, logo posso usar.
+const repository = new TaskRepository();
 
 
 async function main() {
@@ -25,7 +24,7 @@ async function main() {
                 repository.addTask(args[0]);
             }
             break;
-        case "update": // Ainda não lida com arquivos. 
+        case "update": 
             if (args.length !== 2) {
                 console.log("Quantidade de argumentos incorreta. UPDATE espera o ID - (Número inteiro positivo, e.g 1) - da tarefa a ser alterada e a nova descrição dentro de aspas duplas.");
             } else {
@@ -37,7 +36,7 @@ async function main() {
                 }
             }
             break;
-        case "delete": // Ainda não lida com arquivos
+        case "delete": 
             if (args.length !== 1) {
                 console.log("Quantidade de argumentos incorreta. DELETE espera o ID - (Número inteiro positivo, e.g 1) - da tarefa a ser deletada.");
             } else {
@@ -101,7 +100,6 @@ async function main() {
     }
 }
 
-// Chamando a função principal.
 main();
 
 

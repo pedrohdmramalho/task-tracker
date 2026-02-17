@@ -1,16 +1,1 @@
-[
-  {
-    "id": 1,
-    "description": "Teste",
-    "status": "in-progress",
-    "createdAt": "2026-02-16T06:32:27.611Z",
-    "updatedAt": "2026-02-16T06:32:27.611Z"
-  },
-  {
-    "id": 2,
-    "description": "Teste",
-    "status": "done",
-    "createdAt": "2026-02-16T06:32:29.037Z",
-    "updatedAt": "2026-02-16T06:32:29.037Z"
-  }
-]
+[]
