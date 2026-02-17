@@ -50,14 +50,18 @@ Or using Homebrew:
 
 ---
 ### On Linux (Ubuntu/Debian):
+
 `sudo apt update` 
 
 `sudo apt install nodejs npm`
+
 ---
-🔹 Step 3 — Verify Installation
+
+## 🔹 Step 3 — Verify Installation
 
 After installation, open your terminal and run:
 `node -v`
+
 and
 `npm -v`
 
